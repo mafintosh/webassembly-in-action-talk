@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+  <title>Big</title>
+  <link href='big.css' rel='stylesheet' type='text/css' />
+  <link href='highlight.css' rel='stylesheet' type='text/css' />
+  <style>
+    .new-shiny { background: #aaaaaa; }
+  </style>
+  <script src='big.js'></script>
+  <script src='highlight.js'></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body class='light'>
+  <div>WebAssembly</div>
+  <div>
+    <em><i>in action</i></em>
+  </div>
+  <div>
+    @mafintosh
+  </div>
+  <div>
+    <em>Low level</em> programming for the <em>web</em>
+  </div>
+  <div>
+    What is <em>assembly</em>?
+  </div>
+  <div>
+    <em>Machine</em> friendy language that compiles to <em>machine code</em>
+  </div>
+  <div>
+    <pre><em>1</em> + <em>2</em></pre>
+  </div>
+  <div>
+    <span style="white-space: nowrap;">&rightarrow; assembly</span>
+  </div>
+  <div>
+    <pre>
+push <em>1</em>
+push <em>2</em>
+add
+    </pre>
+  </div>
+  <div>
+    <pre>
+push <em>1</em>  &rightarrow;  0x1 <em>0x1</em>
+push <em>2</em>  &rightarrow;  0x1 <em>0x2</em>
+add     &rightarrow;  0x3
+    </pre>
+  </div>
+  <div>
+    Assembly is <em>close</em> to the metal
+  </div>
+  <div>
+    Almost <em>no abstractions</em>
+  </div>
+  <div>
+    <em>Hard</em> to maintain
+  </div>
+  <div>
+    Use assembly to implement <em>STABLE</em> functions that are super <em>FAST</em>
+  </div>
+  <div>
+    Hash functions, video encoding, cryptography
+  </div>
+  <div>
+    WebAssembly is <em>assembly</em> for the <em>web</em>
+  </div>
+  <div>
+    Node.js 8+, Chrome, Firefox, Safari 11, Edge preview
+  </div>
+  <div>
+    <em>WAST</em> is a Lisp like language that compiles to <em>WebAssembly</em>
+  </div>
+  <div>
+    <pre>
+npm install -g <em>webassembly-binary-tools</em>
+<em>wast2wasm</em> example.wat -o example.wasm
+    </pre>
+  </div>
+  <div>
+    (demo)
+  </div>
+  <div>
+    <pre>
+npm install -g <em>wast2js</em>
+<em>wast2js</em> example.wat -o example.js
+    </pre>
+  </div>
+  <div>
+    <pre>
+npm install -g <em>wast2js</em>
+<em>wast2js</em> example.wat -<em>w</em>o example.js
+    </pre>
+  </div>
+  <div>
+    (demo)
+  </div>
+  <div>
+    <em>LOTS</em> of instructions
+  </div>
+  <div>
+    <a href="http://webassembly.org/docs/semantics" style="white-space: nowrap;">http://webassembly.org/docs/semantics</a>
+  </div>
+  <div>
+    When operating on non-numbers (<em>buffers</em> / <em>strings</em>) you have to copy data and use <em>pointers</em>
+  </div>
+  <div>
+    (demo)
+  </div>
+  <div>
+    WebAssembly will <em>massively speed up</em> algorithms
+    that rely on 64 bit integers
+  </div>
+  <div>
+    <em>BLAKE2b</em> is a very fast hash function that does exactly that
+  </div>
+  <div>
+    <span style="white-space: nowrap;">npm install <em>blake2b</em></span>
+  </div>
+  <div>
+    <a href="https://github.com/mafintosh/siphash24" style="white-space: nowrap;">https://github.com/mafintosh/siphash24</a>
+    <a href="https://github.com/mafintosh/blake2b-wasm" style="white-space: nowrap;">https://github.com/mafintosh/blake2b-wasm</a>
+    <a href="https://github.com/mafintosh/webassembly-binary-tools" style="white-space: nowrap;">https://github.com/mafintosh/webassembly-binary-tools</a>
+    <a href="https://github.com/mafintosh/wast2js" style="white-space: nowrap;">https://github.com/mafintosh/wast2js</a>
+    <a href="http://webassembly.org/docs/semantics" style="white-space: nowrap;">http://webassembly.org/docs/semantics</a>
+  </div>
+  <div>
+    Thank you!
+  </div>
+</body>
+</html>
