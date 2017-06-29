@@ -2,4 +2,4 @@
 
 A talk given at Dublin JS 2017
 
-See the slides here, https://mafintosh.github.io/webassembly-in-action-talk
+See the slides here, https://mafintosh.github.io/webassembly-in-action-talk/
